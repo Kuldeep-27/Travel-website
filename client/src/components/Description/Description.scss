@@ -1,0 +1,22 @@
+
+.desc-container{
+    display:flex;
+    flex-direction: column;
+    gap:4vh;
+    margin-top:3vh;
+    border-bottom: 1px solid #E6E6E6;
+
+    h2{
+        font-weight:700;
+        font-size:22px;
+        line-height: 28.38px;
+        color:#1C2B38;
+    }
+
+    .para1,.para2,.para3,.para4{
+        font-weight:400;
+        font-size:15px;
+        line-height:24px;
+        color:#495560;
+    }
+}

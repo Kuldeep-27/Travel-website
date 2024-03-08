@@ -1,0 +1,39 @@
+
+.detail-container{
+    padding:2vw;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    // border:1px solid #16527D;
+    background-color:lightgrey;
+    border-radius:3px;
+    margin-top:2vh;
+
+    .part1,.part2,.part3,.part4,.part5,.part6{
+        display:flex;
+     
+        gap:0.7vw;
+        img{
+            height:max-content;
+        }
+        .detail{
+            display:flex;
+            flex-direction:column;
+            gap:10px;
+            margin-bottom:20px;
+            h3{
+                font-size:15px;
+                font-weight:700;
+                color:#1C2B38;
+            }
+            p{
+                font-size:14px;
+                font-weight:400;
+                color:#495560;
+                font-family:mulish;
+            }
+        }
+    }
+
+
+}

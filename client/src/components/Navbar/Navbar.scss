@@ -1,0 +1,138 @@
+.nav-container{
+    .container{
+       
+        
+        height:90px;
+        border-bottom: 1px solid #E6E6E6;
+        padding:0 40px 0 40px;
+        display:flex;
+        align-items:center;
+        justify-content: space-between;
+
+        .logo{
+            width:183px;
+            height:51px;
+        }
+
+        .items{
+            width:534px;
+            height:50px;
+
+           
+           
+            display:flex;
+            justify-content: space-between;
+            align-items:center;
+            gap:40px;
+
+            .links{
+                display:flex;
+                width:354px;
+                height:22px;
+                gap:30px;
+               
+                align-items:center;
+                justify-content: space-between;
+
+                p{
+                    width:44px;
+                    color:#495560;
+                    font-family: Mulish;
+                    font-weight:600;
+                    font-size:15px;
+                }
+
+            }
+        }
+
+        .button{
+            width:140px;
+            height:50px;
+            background-color: #FFDA32;
+            border-radius:3px;
+             display:flex;
+             justify-content: center;
+             align-items:center;
+
+             p{
+                color:#1C2B38;
+                font-weight:600;
+                height:22px;
+             }
+           
+    
+        }
+
+        .phone{
+            display:none;
+            position:relative;
+
+          
+            .list{
+                position:absolute;
+                top:4vh;
+                right:2vw;
+                display:flex;
+                flex-direction: column;
+               
+                width:80vw;
+                p{
+                    border:1px solid black;
+                    text-align:center;
+                    background-color:black;
+                    color:white;
+                    height:8vh;
+                    display:flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    &:hover{
+                        background-color:white;
+                        color:black;
+                    }
+                }
+
+                button{
+                    background-color: #FFDA32;
+                    height:10vh;
+
+                }
+                
+            }
+
+        }
+    }
+   
+
+}
+
+@media screen and (max-width: 870px) {
+    /* CSS rules for screens up to 600px wide */
+    .nav-container{
+        .container{
+            .items{
+                justify-content: flex-end;
+                .links{
+                    display:none;
+                }
+                .button{
+                    display:none;
+                }
+
+                .phone{
+                    display:block;
+                }
+               
+            }
+        }
+    }
+  }
+
+  @media screen and (max-width:500px){
+    .nav-container{
+        .container{
+            padding:0;
+        }
+    }
+  }
+

@@ -1,0 +1,47 @@
+
+.button-container{
+
+    display:flex;
+    gap:10px;
+
+    button{
+        width:140px;
+        height:50px;
+        background-color:#FFDA32;
+        border-radius:3px;
+       border:none;
+       font-weight:800;
+       color: #1C2B38;
+    }
+
+    div{
+        width:65px;
+        height:40px;
+
+        span{
+            width:65px;
+            height:28.11px;
+            font-weight:700;
+            font-size:20px;
+            line-height:26px;
+            color:#7BBCB0;
+        }
+        p{
+            width:60px;
+            height:16.22px;
+            color: #778088;
+            font-size:12px;
+            font-weight:600;
+        }
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+    /* CSS rules for screens up to 600px wide */
+    .button-container{
+        flex-direction:column;
+        align-items:center;
+    }
+
+  }

@@ -1,0 +1,83 @@
+.booking-container{
+    display:flex;
+    flex-direction:column;
+    padding-bottom:2vh;
+    padding-top:1vh;
+    h3{
+        font-size:18px;
+        font-weight:700;
+        color:#1C2B38;
+        border-bottom:1px solid #E6E6E6;
+        padding-bottom:2vh;
+    }
+
+    form{
+        display:flex;
+        flex-direction:column;
+        gap:1.5vh;
+        margin:4vh 0;
+       // justify-content: center;
+       // align-items: center;
+
+       label{
+        font-weight:700;
+        font-size:15px;
+        line-height:18px;
+        color:  #1C2B38;
+       }
+
+        input,select,button{
+            padding:5%;
+            border:none;
+            background-color: #F4F4F5;
+            width:100%;
+        }
+
+        button{
+            background-color: #7BBCB0;
+            color:white;
+            font-weight:700;
+            font-size:15px;
+            line-height:18.83px;
+            border-radius:3px;
+        }
+
+        .total{
+            display:flex;
+            justify-content: center;
+            align-items:center;
+            flex-direction:column;
+            padding:5%;
+
+            p{
+                font-weight:600;
+                font-size:14px;
+                line-height: 17.57px;
+                color:#778088;
+            }
+
+            h3{
+                font-weight:900;
+                color: #7BBCB0;
+                font-size:36px;
+                line-height:45.18px;
+            }
+        }
+    }
+
+    button{
+        height:50px;
+        display:flex;
+        justify-content: center;
+        align-items:center;
+        background-color:white;
+        border-radius:3px;
+        gap:1vw;
+        span{
+             font-weight:700;
+             font-size:15px;
+             color:#778088;
+            
+        }
+    }
+}
